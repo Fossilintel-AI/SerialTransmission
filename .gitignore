@@ -1,0 +1,19 @@
+# Ignore compiled files
+*.o
+*.out
+*.bin
+*.elf
+
+# Ignore system files
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore virtual environments
+venv/
