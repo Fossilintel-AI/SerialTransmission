@@ -1,7 +1,7 @@
 import serial
 import struct
 
-# Sync Pattern and CRC function used within the application
+# Sync Pattern and CRC function used within the application.
 SYNC_PATTERN = 0xAA55
 
 def calculate_crc(data):
