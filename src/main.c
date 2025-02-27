@@ -4,7 +4,7 @@
 #include "serial_packet.h"
 
 
-//Here we Generaye random data to test with
+//Here we Generate random data to test with
 void generate_and_send_packets() {
     SerialPacket packet;
     packet.sync = SYNC_PATTERN;
